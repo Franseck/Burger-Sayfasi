@@ -1,0 +1,47 @@
+*{  
+  margin: 0px;
+  padding: 0px;
+}
+
+.container {
+width: 900px;
+height: 600px;
+   }
+
+body {
+   background: linear-gradient(to right, transparent, rgb(116, 12, 12)), url(./logo.png),url(./ornek.jpg);
+   background-size: 900px 600px, 60px 60px, 900px 600px;
+   background-repeat: no-repeat, no-repeat, no-repeat;
+  }
+    
+ul {
+    color: white;
+    list-style: none;
+    }
+
+li {
+        display: inline-block;
+        padding: 10px;
+    }
+
+.nav {
+    text-align: center;
+    margin-top: 70px;
+    background-color: black;
+    font-family: fantasy;
+    font-size: 15px;
+    font-weight: bold;
+}
+
+.yazi {
+    text-align: center;
+}
+
+h1 {
+       font-size: 60px;
+       margin-top: 120px;
+       background: linear-gradient(to right, rgb(255, 213, 5) 0%, rgba(237, 228, 228, 0) 72%);
+       background-clip: initial;
+       -webkit-background-clip: text;
+       -webkit-text-fill-color: transparent;
+}
